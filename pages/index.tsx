@@ -6,7 +6,22 @@ const DESCRIPTION = "you can make pixel art only 100 pixel.";
 const SITE_URL = "https://100pixelart.nabettu.com";
 const OG_IMAGE = SITE_URL + "/ogp.png";
 const SHARE_TEXT = "#100pixelart " + SITE_URL;
-const PALLET = Array.from("⬜🟥🟧🟨🟩🟦🟪🟫⬛");
+const PALLET = [
+  "⬜",
+  "🟥",
+  "🟧",
+  "🟨",
+  "🟩",
+  "🟦",
+  "🟪",
+  "🟫",
+  "⬛",
+  "🏻",
+  "🏼",
+  "🏽",
+  "🏾",
+  "🏿",
+];
 const initText = () =>
   Array(10)
     .fill("⬜")

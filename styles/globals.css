@@ -67,10 +67,12 @@ footer {
 }
 
 .pallet {
-  margin-top: 1em;
+  width: 280px;
+  margin: 1em auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .palletBtn {
